@@ -3,7 +3,7 @@
 	,"version" : "0.0.1"
 	,"dependencies" : {
 		 "async" : "0.2.6"
-		,"fetch" : "0.3.1"
+		,"fetch" : "0.3.4"
 		,"generic-pool" : "2.0.3"
 		,"log4js" : "0.5.7"
 		,"mongodb" : "1.2.13" 		

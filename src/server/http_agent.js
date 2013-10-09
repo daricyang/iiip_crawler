@@ -23,7 +23,6 @@ var http_agent = function(url,option,callback){
 			option.headers.Cookie=option.cookies.join(';');
 			chrome.webRequest.onBeforeSendHeaders.addListener(
 				function(details) {
-				console.log(chrome.webRequest);
 					var exist=false;
 					for (var i = 0; i < details.requestHeaders.length; ++i) {
 				    	  	if (option.headers[details.requestHeaders[i].name]) {

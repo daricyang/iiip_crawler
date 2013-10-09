@@ -14,7 +14,7 @@ IIIPCrawler : src/IIIPCrawler/* $(SHARE_SRCS_PATH)
 
 
 	
-SERVER_SRCS := $(SPACE)http_agent.js batch_operator.js crawler.js fetcher.js slave.js tools.js chromeServer.js delay_operator.js handlers.js server.js worker.js
+SERVER_SRCS := $(SPACE)http_agent.js batch_operator.js crawler.js fetcher.js slave.js tools.js chromeServer.js delay_operator.js handlers.js server.js worker.js cookie.js
 SERVER_SRCS_PATH = $(subst $(SPACE), src/server/,$(SERVER_SRCS))
 
 server : bin/package.json server_srcs 

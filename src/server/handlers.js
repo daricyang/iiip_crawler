@@ -58,6 +58,7 @@ var tencentSaverBatch=new Batch({
 	op:tencentSaver.save.bind(tencentSaver)
 });
 /*------------end tencent method--------*/
+
 var save = function(data,callback){
 	//logger.debug(data);
 	var fs = require('fs');
